@@ -27,3 +27,8 @@ console.log(calc1.soma());
 console.log(calc1.subtração());
 console.log(calc1.divisao());
 console.log(calc1.nultiplicacao());
+const pardal = {
+    penas: true,
+    bico: true,
+    ovipara: true,
+};

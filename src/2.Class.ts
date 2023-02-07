@@ -39,3 +39,27 @@ console.log(calc1.divisao());
 console.log(calc1.nultiplicacao());
 
 export {}
+
+
+// INTERFACE
+//É um contrato sintático ao qual uma entidade deve obedecer . Em outras palavras, uma interface define a sintaxe que qualquer entidade deve seguir.
+// As interfaces definem propriedades, métodos e eventos, que são os membros da interface. As interfaces contêm apenas a declaração dos membros.
+
+interface ave {
+  penas: true,
+  bico: true,
+  ovipara: true,
+}
+
+const pardal: ave = {
+  penas: true,
+  bico: true,
+  ovipara: true,
+} 
+
+// Herança
+
+interface AveTerrestre extends ave {
+  voar: false,
+}
+
